@@ -1,4 +1,6 @@
-
+html{
+    margin: auto;
+}
 
 .navbar{
     width: 95%;
@@ -203,16 +205,19 @@ button{
 
   @media only screen and (max-width: 650px){
       .content{
-          width: 440px;
+          width: 350px;
       }
       .aboutMeSec{
-          height: 350px;
+          height: 400px;
       }
   }
 
   @media only screen and (max-width: 650px){
       .preview{
-          width: 480px;
-          height: 250px;
+          width: 350px;
+          height: 170px;
+      }
+      #big{
+        font-size: 25px;
       }
   }

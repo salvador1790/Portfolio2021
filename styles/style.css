@@ -1,0 +1,218 @@
+
+
+.navbar{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+}
+
+.navbar :first-child{
+    margin-right: 20px;
+}
+
+.navbar :nth-child(3){
+    margin-left: 20px;
+}
+
+.navbar a{
+    color: #BEBEBE;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.aboutMeSec{
+    width: 100%;
+}
+
+.content{
+    width: 600px;
+    height: 300px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#big{
+    font-size: 35px;
+}
+
+.stackSec{
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stackSec i{
+    font-size: 50px;
+    margin-right: 20px;
+    transition: .4s;
+}
+
+
+.stackCont{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    display: flex;
+    color: white;
+    padding-left: 40px;
+    
+}
+
+
+.stackCont2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 40px;
+}
+
+.projects{
+    height: 1800px;
+}
+
+.projects h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.projectBox{
+    width: 90%;
+    height: 350px;
+    background-color: white;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutProject{
+    font-family: 'Poppins', sans-serif;
+    height: 250px;
+    width: 350px;
+}
+
+.aboutProject h2{
+    margin-top: 0;
+}
+
+i{
+    font-size: 35px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.preview{
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.preview:hover{
+    visibility: visible;
+}
+
+.stacksUsed img{
+    height: 38px;
+}
+
+#drumkit{
+    background-image: url("./images/Screen\ Shot\ 2021-02-16\ at\ 11.38.07\ AM.png");
+}
+
+#simon{
+    background-image: url("./images/Screen\ Shot\ 2021-02-16\ at\ 1.39.17\ PM.png");
+}
+
+#song{
+    background-image: url("./images/Screen\ Shot\ 2021-02-16\ at\ 2.04.49\ PM.png");
+}
+
+#todo{
+    background-image: url("./images/Screen\ Shot\ 2021-02-16\ at\ 3.55.14\ PM.png");
+}
+
+
+#specialBtn{
+    margin-bottom: 50px;
+}
+
+#listCont{
+    height: 250px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .projectBox {
+      flex-direction: column;
+      height: 700px;
+    }
+    .aboutProject{
+        text-align: center;
+    }
+    #listCont{
+        height: 450px;
+    }
+
+  }
+
+  @media only screen and (max-width: 895px){
+      .sec{
+          display: flex;
+          flex-direction: column;
+          margin-right: 40px;
+      }
+      .content{
+          height:240px;
+      }
+      .stackSec{
+          height: 250px;
+      }
+
+      .stackSec :nth-child(3){
+          margin-right: 0;
+      }
+
+      .stackSec i{
+          margin-bottom: 10px;
+          pointer-events: none;
+      }
+
+  }
+
+  @media only screen and (max-width: 650px){
+      .content{
+          width: 440px;
+      }
+      .aboutMeSec{
+          height: 350px;
+      }
+  }
+
+  @media only screen and (max-width: 650px){
+      .preview{
+          width: 480px;
+          height: 250px;
+      }
+  }
